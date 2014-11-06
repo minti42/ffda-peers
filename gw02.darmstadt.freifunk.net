@@ -1,2 +1,3 @@
+# gw02
 key "b25085cd195964c78a6b9fce5c08b2faefce8248ed31ddeafdf55b54a56c537d";
-remote 5.199.142.236:3332;
+remote gw02.darmstadt.freifunk.net:3332;
