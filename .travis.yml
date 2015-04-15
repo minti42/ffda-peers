@@ -11,7 +11,7 @@ script:
 
 notifications:
   irc:
-    channel:
+    channels:
       - "irc.hackint.org#ffda"
     on_success: change
     on_failure: always
