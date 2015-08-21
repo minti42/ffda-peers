@@ -1,0 +1,3 @@
+# gw02
+key "c17de76548842898d9417122f64f00da3617ec416d9f78d29c42280e8374870c";
+remote "gw02.darmstadt.freifunk.net" port 3334;
