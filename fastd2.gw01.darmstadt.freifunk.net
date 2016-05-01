@@ -1,3 +1,0 @@
-# gw01
-key "6b4cfadc894d73008321e277a28bbdd24b257ad3a460d5d7213c83f5fd39e0ce";
-remote ipv6 "gw01.darmstadt.freifunk.net" port 3335;
