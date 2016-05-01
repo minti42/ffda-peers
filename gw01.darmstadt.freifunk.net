@@ -1,3 +1,4 @@
 # gw01
 key "e04a2e54f873876ea2fc50973f85743daee7878c1872f905c94b12371fea3b9d";
 remote ipv6 "gw01.darmstadt.freifunk.net" port 3334;
+remote ipv4 "gw01.darmstadt.freifunk.net" port 3335;
