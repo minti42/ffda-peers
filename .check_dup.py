@@ -51,14 +51,9 @@ for fn in root.iterdir():
         exit_code += 1
         continue
 
-    keys[fn] = data.group('key')
+    keys.setdefault(data.group('key'), set()).add(fn)
 
-
-dedup = {}
 for k, v in keys.items():
-    dedup.setdefault(v, set()).add(k)
-
-for k, v in dedup.items():
     if len(v) > 1:
         exit_code += 1
         error('duplicate key "{key}" in files: {files}'.format(
