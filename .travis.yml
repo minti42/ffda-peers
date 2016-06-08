@@ -11,3 +11,12 @@ before_install:
 script:
 # - for f in * ; do echo "checking $f..."; fastd --verify-config --config-peer $f || exit 1; done
  - ./.check.py
+
+notifications:
+  irc:
+    channels:
+      - "irc.hackint.org#ffda"
+    on_success: change
+    on_failure: always
+    use_notice: true
+    skip_join: true
